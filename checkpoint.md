@@ -92,5 +92,9 @@ given the following array
 ```javascript
 var studentYearOfBirths = [2001, 1975, 1992, 1998, 1988, 1994]
 ```
-write code to calculate the students average age
+1. write code to calculate the students average age
+
+2. if you used a `for` loop solve this again using `forEach`
+
+
 
