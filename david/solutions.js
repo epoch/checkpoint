@@ -72,14 +72,16 @@ var averageAgeArray = [];
 var getAverageAge = () => {
 
     studentYearOfBirths.forEach(e => {
-        let age = currentYear - studentYearOfBirths[index - 1]
-        currentAgeSum = currentAgeSum + (age);
+        // calculate average
+        let currentAge = currentYear - studentYearOfBirths[index - 1]
+        currentAgeSum = currentAgeSum + currentAge;
         averageAge = currentAgeSum / index;
-
+        // push into array
         let averageAgeRounded = Math.round(averageAge);
         averageAgeArray.push(averageAgeRounded);
         index++;
     })
+    // getting final result
     return averageAgeArray[averageAgeArray.length - 1];
 }
 
