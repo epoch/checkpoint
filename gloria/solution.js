@@ -57,5 +57,20 @@ var dog = {
   age: 4,
   hairColor: "pink"
 };
-
 console.log(Object.keys(dog));
+
+function isOdd(num) {
+  if (num % 2 == 0) {
+    return false;
+  } else {
+    return true;
+  }
+}
+var result = isOdd(6);
+
+var studentYearOfBirths = [2001, 1975, 1992, 1998, 1988, 1994];
+var total = 0;
+for (var i = 0; i < studentYearOfBirths.length; i++) {
+  total = total + studentYearOfBirths[i];
+  var avg = total / studentYearOfBirths.length;
+}
