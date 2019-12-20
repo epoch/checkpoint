@@ -43,11 +43,7 @@ console.log(Object.keys(dog));
 
 printHead("JS Functions");
 var isOdd = function(num){
-    if(num %2 == 1){
-        return true;
-    }else{
-        return false;
-    }
+    return (num % 2 == 1)
 }
 var result = isOdd(6);
 console.log(result);
