@@ -57,6 +57,5 @@ var dog = {
   age: 4,
   hairColor: "pink"
 };
+
 console.log(Object.keys(dog.name));
-console.log(Object.keys(dog.age));
-console.log(Object.keys(dog.Color));
