@@ -58,4 +58,4 @@ var dog = {
   hairColor: "pink"
 };
 
-console.log(Object.keys(dog.name));
+console.log(Object.keys(dog);
