@@ -177,7 +177,8 @@ var averageAge = function (arr) {
         sum += arr[i];
     }
     var result = sum/arr.length;
-    return Math.round(result * 100) / 100;
+    return (2019 - Math.round(result));
+    
 }
 
 console.log(averageAge(studentYearOfBirths));
@@ -192,7 +193,7 @@ var averageAge2 = function (arr) {
         sum += value;
     })
     var result = sum/arr.length;
-    return Math.round(result * 100) / 100;  
+    return (2019 - Math.round(result));
 }
 
 console.log(averageAge2(studentYearOfBirths));
