@@ -74,3 +74,4 @@ for (var i = 0; i < studentYearOfBirths.length; i++) {
   total = total + studentYearOfBirths[i];
   var avg = total / studentYearOfBirths.length;
 }
+console.log(avg);
