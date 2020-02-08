@@ -82,4 +82,4 @@ def scream (number)
     end
     puts start_letter
 end
-scream(7)
+scream(7) 

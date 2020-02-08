@@ -18,29 +18,16 @@ for (var i = 0; i < days.length; i++) {
 3 Sunday
 */
 
-var eatBananas = [
-  "bananas",
-  "bananas",
-  "bananas",
-  "bananas",
-  "bananas",
-  "bananas",
-  "bananas",
-  "bananas",
-  "bananas",
-  "bananas",
-  "bananas",
-  "bananas",
-  "bananas",
-  "bananas",
-  "bananas",
-  "bananas"
-];
-for (var i = 16; i < eatBananas.length; i = i - 2) {
-  // if (eatBananas.length === 7 && eatBananas.length ) {
-  console.log([i] + " " + "bananas");
-  // }
+var eatBananas = 0;
+
+while (eatBananas < 16) {
+  if (eatBananas === 7) {
+    break;
+  }
+  eatBananas = eatBananas + 1;
 }
+console.log(`I eat ${eatBananas} bananas`);
+// I eat 7 bananas
 
 var brain = {
   energyLevel: 10
